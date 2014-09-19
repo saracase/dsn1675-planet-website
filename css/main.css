@@ -32,7 +32,12 @@ img {
 
 header {
      background-color: #ccc;
-    overflow: hidden;
+     overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
 }
 
 .nav {
@@ -52,14 +57,29 @@ header {
     color: #0074D9;
 }
 
-@media only screen and (min-width: 15em) {
+@media only screen and (min-width: 20em) {
     
-    .title {
+    .nav {
         text-align: center;
+    }
+
+    .nav li {
+        display: inline-block;
     }
 }
 
-@media only screen and (min-width: em) {
+@media only screen and (min-width: 40em) {
+    
+   .title {
+       text-align: left;
+       float: left;
+   }
+    
+   .nav {
+       float: left;
+       padding: 1em 0;
+   }
+    
 
 
 
