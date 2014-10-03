@@ -27,12 +27,11 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 100%; 
 }
 
 .header {
      background-color: #ccc;
-     overflow: hidden;
 }
 
 .title {
@@ -58,7 +57,11 @@ img {
 }
 
 .subtitle {
+    overflow: hidden;
     text-align: left;
+    background-color: #dddddd;
+    padding: 1em;
+    margin: 1em;
 }
 
 @media only screen and (min-width: 20em) {
