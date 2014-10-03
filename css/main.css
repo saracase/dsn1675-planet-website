@@ -80,6 +80,13 @@ img {
        padding: 1em 0;
    }
 }
+
+.gutter {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
     
 
 
