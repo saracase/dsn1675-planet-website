@@ -61,10 +61,6 @@ img {
     text-align: left;
 }
 
-.caption {
-    padding-bottom: 1em;
-}
-
 @media only screen and (min-width: 20em) {
     
     .nav {
