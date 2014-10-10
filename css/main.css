@@ -31,13 +31,8 @@ body {
 }
 
 .masthead {
-  overflow: hidden;
   background-color: #ccc;
-}
-
-.header {
-     background-color: #ccc;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .title {
@@ -71,6 +66,12 @@ body {
   background-color: #0074D9;
 
   color: #fff;
+}
+
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+    font-weight: normal;
 }
 
 @media only screen and (min-width: 20em) {
