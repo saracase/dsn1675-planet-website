@@ -32,28 +32,23 @@ body {
 
 .masthead {
   overflow: hidden;
+
   background-color: #ccc;
 }
 
-.header {
-     background-color: #ccc;
-    overflow: hidden;
-}
-
 .title {
-    text-align: center;
-    margin: 0;
+  display: block;
+  margin: 0;
+
+  text-align: center;
 }
 
 .nav {
-    margin: 0;
-    padding: 1em 0;
-    list-style-type: none;
-    background-color: #ccc;
+  padding: 0;
 }
 
 .nav li {
-    border-top: 0;
+  display: block;
 }
 
 .nav a,
@@ -73,37 +68,26 @@ body {
   color: #fff;
 }
 
-@media only screen and (min-width: 20em) {
-    
-    .nav {
-        text-align: center;
-    }
+@media only screen and (min-width: 25em) {
 
-    .nav li {
-        display: inline-block;
-    }
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
 }
 
-@media only screen and (min-width: 40em) {
-    
-   .title {
-       text-align: left;
-       float: left;
-   }
-    
-   .nav {
-       float: left;
-       padding: 1em 0;
-   }
+@media only screen and (min-width: 38em) {
+
+  .title {
+    float: left;
+  }
+
+  .nav {
+    float: left;
+  }
+
 }
-
-    
-
-
-
-
-
-
-
-
-
