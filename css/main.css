@@ -74,6 +74,16 @@ body {
     font-weight: normal;
 }
 
+.index-image-background {
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.table-colour {
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 20em) {
     
     .nav {
