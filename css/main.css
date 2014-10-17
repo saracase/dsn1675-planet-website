@@ -20,6 +20,14 @@ html {
     html {
         font-size: 110%;
     }
+        
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
 }
 
 @media only screen and (min-width: 90em) {
@@ -114,19 +122,26 @@ body {
     .nav li {
         display: inline-block;
     }
+    
+    .masthead {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 38em) {
     
-   .title {
-       text-align: left;
-       float: left;
+  .title,
+  .nav {
+    text-align: left;
    }
     
-   .nav {
-       float: left;
-       padding: 1em 0;
-   }
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
 }
 
 
