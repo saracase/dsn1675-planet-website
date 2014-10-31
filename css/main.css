@@ -28,6 +28,10 @@ html {
     .nav-footer {
         text-align: right;
     }
+    
+    .form-spacing {
+        padding: 0 10em 0 10em;
+    }
 }
 
 @media only screen and (min-width: 90em) {
@@ -223,6 +227,10 @@ textarea {
     }
 }
 
+.form-spacing {
+    padding: 0 1.5em 0 1.5em;
+}
+}
 
 
 
