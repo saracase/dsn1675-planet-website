@@ -171,7 +171,8 @@ button {
     font-family: sans-serif;
     border: 1px solid #ccc;
     border-radius: 3px;
-    background: #fff;
+    background: #3D9970;
+    color: #fff;
     padding: 0 0.3em;
     cursor: pointer;
     margin: 1em;
